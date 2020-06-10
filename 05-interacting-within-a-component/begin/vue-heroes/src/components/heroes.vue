@@ -69,6 +69,7 @@
                   id="originDate"
                   v-model="selectedHero.originDate"
                 />
+                
                 <p class="commnet">My origin story began on {{ selectedHero.originDate | shortDate}}</p>
               </div>
               <div class="field">
