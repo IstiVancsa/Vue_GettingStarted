@@ -61,6 +61,9 @@
                   v-model="selectedHero.description"
                 />
               </div>
+              <div>
+                <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DX3oM43CtKnRV" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+              </div>
               <div class="field">
                 <label class="label" for="originDate">Origin Date</label>
                 <input
