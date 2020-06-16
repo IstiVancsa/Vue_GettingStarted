@@ -25,6 +25,7 @@ const getHeroes = async function() {
 const getHero = async function(id) {
   try {
     const response = await axios.get(`${API}/heroes/${id}`);
+    console.log(response);
     let hero = parseItem(response, 200);
     return hero;
   } catch (error) {

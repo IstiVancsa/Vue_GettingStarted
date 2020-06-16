@@ -74,11 +74,11 @@ export default {
   },
   methods: {
     cancelHero() {
-      this.$emit('done');
+      this.$router.push({ name: 'heroes'}); // heroes is the name of the page we want to navigate(the name declared in the router,js)
     },
     async saveHero() {
       await dataService.updateHero(this.hero);
-      this.$emit('done');
+      this.$router.push({ name: 'heroes'})
     },
   },
 };
